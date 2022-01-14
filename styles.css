@@ -39,24 +39,31 @@ body {
 
 .resume .resume_left .resume_profile {
   width: 100%;
-  height: 280px;
+  height: 260px;
+  padding: 30px;
 }
 
 .resume .resume_left .resume_profile img {
   width: 100%;
-  height: 100%;
+  height: 105%;
+  
+  border: 5px solid white;
+  border-radius: 50%;
 }
 
 .resume .resume_left .resume_content {
   padding: 0 25px;
+  
 }
 
 .resume .title {
   margin-bottom: 20px;
+  
 }
 
 .resume .resume_left .bold {
   color: #fff;
+  font-size: 18px;
 }
 
 .resume .resume_left .regular {
@@ -144,6 +151,7 @@ body {
   margin-bottom: 3px;
 }
 
+
 .resume .resume_right {
   width: 520px;
   background: #fff;
@@ -152,26 +160,30 @@ body {
 
 .resume .resume_right .bold {
   color: #435176;
+  
 }
 
 .resume .resume_right .resume_work ul,
 .resume .resume_right .resume_education ul {
   padding-left: 40px;
   overflow: hidden;
+  
 }
 
 .resume .resume_right ul li {
   position: relative;
+  
 }
 
 .resume .resume_right ul li .date {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: bold;
   margin-bottom: 15px;
 }
 
 .resume .resume_right ul li .info {
   margin-bottom: 20px;
+  
 }
 
 .resume .resume_right ul li:last-child .info {
